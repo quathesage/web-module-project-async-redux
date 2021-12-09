@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Coin from './Components/coin';
 
 function App() {
   return (
     <div className="App">
-      Async Redux Project
+      <Coin/>
     </div>
   );
 }
